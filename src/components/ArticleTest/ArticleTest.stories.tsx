@@ -1,4 +1,4 @@
-import { StoryFn, Meta } from "@storybook/react";
+import { Meta } from "@storybook/react";
 import { ArticleTest } from "./index";
 
 export default {
@@ -6,14 +6,14 @@ export default {
   component: ArticleTest,
 } as Meta;
 
-const Template: StoryFn<typeof ArticleTest> = (args) => (
-  <ArticleTest {...args} />
-);
+// const Template: StoryFn<typeof ArticleTest> = (args) => (
+//   <ArticleTest {...args} />
+// );
 
 export const Primary: Meta = {
   args: {
     hText: "Primary!",
-    list: ["1. Primary!", "2. Primary!", "2. Primary!"],
+    list: ["1. Test!", "2. Test2!", "2. Primary!", "4. Added through story."],
   },
 };
 

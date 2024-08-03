@@ -1,6 +1,9 @@
 # react-game-components
 Simple React components for simple games
 
+- [Online Demo](storybook/index.html);
+- [Github](https://github.com/Kvisaz/react-game-components)
+
 Commands:
 - `npm run start` - open storybook
 - `npm run deploy` - publish storybook to page

@@ -1,3 +1,5 @@
+import {Text} from "../Text/index";
+
 interface ArticleProps {
   hText: string;
   list: Array<string>;
@@ -6,25 +8,12 @@ interface ArticleProps {
 export const ArticleTest = ({ hText, list }: ArticleProps) => {
   return (
     <article>
-      <h1>{hText}</h1>
+      <h1><Text text={hText} /></h1>
       <ol>
-        {list.map((e, i) => (
-          <li key={"ArticleTest" + i}>{e}</li>
+        {list.map((text, i) => (
+          <li key={"ArticleTest" + i}><Text text={text} /></li>
         ))}
       </ol>
     </article>
   );
 };
-
-/*
-  return (
-    <article>
-      <h1>My First Component</h1>
-      <ol>
-        <li>Components: UI Building Blocks</li>
-        <li>Defining a Component</li>
-        <li>Using a Component</li>
-      </ol>
-    </article>
-  );
-*/

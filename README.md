@@ -1,7 +1,7 @@
 # react-game-components
 Simple React components for simple games
 
-- [Online Demo](storybook/index.html);
+- [Online Demo](https://kvisaz.github.io/react-game-components/);
 - [Github](https://github.com/Kvisaz/react-game-components)
 
 Commands:

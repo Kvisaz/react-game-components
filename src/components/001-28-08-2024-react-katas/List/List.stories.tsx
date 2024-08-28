@@ -14,6 +14,11 @@ export const DefaultStory: Story = {};
 
 export const ShoppingList: Story = {
   args: {
-    items: ["молоко", "хлеб", "огурцы", "халва"],
+    items: [
+      { name: "молоко", key: "list-молоко" },
+      { name: "хлеб", key: "list-хлеб" },
+      { name: "огурцы", key: "list-огурцы" },
+      { name: "халва", key: "list-халва" },
+    ],
   },
 };

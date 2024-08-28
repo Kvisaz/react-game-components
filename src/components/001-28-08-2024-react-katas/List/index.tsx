@@ -1,12 +1,18 @@
 interface ListProps {
-  items: Array<string>;
+  items: Array<{ name: string; key: string }>;
 }
 
-export const List = ({ items = ["apple", "banana", "orange"] }: ListProps) => {
+export const List = ({
+  items = [
+    { name: "apple", key: "lis-apple" },
+    { name: "banana", key: "list-banana" },
+    { name: "orange", key: "list-orange" },
+  ],
+}: ListProps) => {
   return (
     <ul>
-      {items.map((text, index) => (
-        <li key={index}>{text}</li>
+      {items.map(({ name, key }) => (
+        <li key={key}>{name}</li>
       ))}
     </ul>
   );

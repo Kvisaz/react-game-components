@@ -1,0 +1,5 @@
+import{j as a}from"./jsx-runtime-CkxqCPlQ.js";import"./index-DJO9vBfz.js";const m=({items:c=["apple","banana","orange"]})=>a.jsx("ul",{children:c.map((d,l)=>a.jsx("li",{children:d},l))});m.__docgenInfo={description:"",methods:[],displayName:"List",props:{items:{required:!1,tsType:{name:"Array",elements:[{name:"string"}],raw:"Array<string>"},description:"",defaultValue:{value:'["apple", "banana", "orange"]',computed:!1}}}};const f={title:"Components/001-28-08-2024-react-katas/List",component:m},e={},r={args:{items:["молоко","хлеб","огурцы","халва"]}};var s,t,o;e.parameters={...e.parameters,docs:{...(s=e.parameters)==null?void 0:s.docs,source:{originalSource:"{}",...(o=(t=e.parameters)==null?void 0:t.docs)==null?void 0:o.source}}};var n,p,i;r.parameters={...r.parameters,docs:{...(n=r.parameters)==null?void 0:n.docs,source:{originalSource:`{
+  args: {
+    items: ["молоко", "хлеб", "огурцы", "халва"]
+  }
+}`,...(i=(p=r.parameters)==null?void 0:p.docs)==null?void 0:i.source}}};const x=["DefaultStory","ShoppingList"];export{e as DefaultStory,r as ShoppingList,x as __namedExportsOrder,f as default};

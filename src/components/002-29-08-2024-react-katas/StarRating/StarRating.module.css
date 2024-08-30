@@ -1,0 +1,10 @@
+.star_rating {
+  position: relative;
+  font-size: 5em;
+  width: max-content;
+}
+
+.star_rating__filled_stars {
+  position: absolute;
+  overflow: hidden;
+}

@@ -1,0 +1,5 @@
+import{j as r}from"./jsx-runtime-CkxqCPlQ.js";import"./index-DJO9vBfz.js";const _="_star_rating_rol90_1",c="_star_rating__filled_stars_rol90_13",s={star_rating:_,star_rating__filled_stars:c},o=({rating:a=3.5})=>{const l=(a<0?0:a>5?5:a)*100/5;return r.jsxs("div",{className:s.star_rating,children:[r.jsx("div",{className:s.star_rating__filled_stars,style:{width:`${l}%`},children:"★★★★★"}),"✰✰✰✰✰"]})};o.__docgenInfo={description:"",methods:[],displayName:"StarRating",props:{rating:{required:!1,tsType:{name:"number"},description:"",defaultValue:{value:"3.5",computed:!1}}}};const p={title:"Components/002-29-08-2024-react-katas/StarRating",component:o,argTypes:{rating:{control:{type:"range",min:0,max:5,step:.1}}}},t={args:{rating:3}};var e,n,i;t.parameters={...t.parameters,docs:{...(e=t.parameters)==null?void 0:e.docs,source:{originalSource:`{
+  args: {
+    rating: 3
+  }
+}`,...(i=(n=t.parameters)==null?void 0:n.docs)==null?void 0:i.source}}};const g=["Default"];export{t as Default,g as __namedExportsOrder,p as default};

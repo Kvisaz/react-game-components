@@ -1,22 +1,35 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import styles from "./CountdownTimer.module.css";
 
 interface CountdownTimerProps {
   seconds: number;
+  onFinish: () => void;
 }
 
-export const CountdownTimer = ({ seconds = 120 }: CountdownTimerProps) => {
+export const CountdownTimer = ({
+  seconds = 120,
+  onFinish = () => console.log("timer end"),
+}: CountdownTimerProps) => {
   const [countdown, setCountdown] = useState(0);
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
     setCountdown(seconds);
-    const interval = setInterval(() => {
+    intervalRef.current = setInterval(() => {
       setCountdown((cd) => Math.max(cd - 1, 0));
     }, 1000);
     return () => {
-      clearInterval(interval);
+      clearInterval(intervalRef.current !== null ? intervalRef.current : 0);
+      onFinish();
     };
-  }, [seconds]);
+  }, [seconds, onFinish]);
+
+  useEffect(() => {
+    if (countdown === 0) {
+      clearInterval(intervalRef.current !== null ? intervalRef.current : 0);
+      onFinish();
+    }
+  }, [countdown, onFinish]);
 
   return (
     <div className={styles.container}>

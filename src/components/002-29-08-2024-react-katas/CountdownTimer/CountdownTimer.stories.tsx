@@ -18,5 +18,6 @@ type Story = StoryObj<typeof CountdownTimer>;
 export const Default: Story = {
   args: {
     seconds: 120,
+    onFinish: () => console.log("timer end"),
   },
 };

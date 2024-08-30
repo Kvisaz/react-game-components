@@ -10,7 +10,7 @@ export const CountdownTimer = ({
   seconds = 120,
   onFinish = () => console.log("timer end"),
 }: CountdownTimerProps) => {
-  const [countdown, setCountdown] = useState(0);
+  const [countdown, setCountdown] = useState(-1);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
@@ -20,13 +20,11 @@ export const CountdownTimer = ({
     }, 1000);
     return () => {
       clearInterval(intervalRef.current !== null ? intervalRef.current : 0);
-      onFinish();
     };
-  }, [seconds, onFinish]);
+  }, [seconds]);
 
   useEffect(() => {
     if (countdown === 0) {
-      clearInterval(intervalRef.current !== null ? intervalRef.current : 0);
       onFinish();
     }
   }, [countdown, onFinish]);

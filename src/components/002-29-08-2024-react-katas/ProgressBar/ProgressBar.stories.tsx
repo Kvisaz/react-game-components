@@ -6,16 +6,10 @@ const meta: Meta<typeof ProgressBar> = {
   component: ProgressBar,
   argTypes: {
     progress: {
-      control: "range",
-      min: 0,
-      max: 100,
-      step: 1,
+      control: { type: "range", min: 0, max: 100, step: 1 },
     },
     width: {
-      control: "range",
-      min: 0,
-      max: 100,
-      step: 1,
+      control: { type: "range", min: 0, max: 100, step: 1 },
     },
     colorBg: { control: "color" },
     colorBar: { control: "color" },

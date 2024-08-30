@@ -2,6 +2,7 @@
   position: relative;
   font-size: 5em;
   width: max-content;
+  color: gold;
 }
 
 .star_rating__filled_stars {

@@ -1,0 +1,5 @@
+import{j as n}from"./jsx-runtime-CkxqCPlQ.js";import{r as p}from"./index-DJO9vBfz.js";const d="_container_1fha2_79",h={container:d},i=({onSwitch:t})=>{const[o,l]=p.useState(!1),m=()=>{const s=!o;l(s),t(s)};return n.jsxs("div",{className:h.container,children:[n.jsx("input",{type:"checkbox",id:"switch",checked:o,onChange:m}),n.jsx("label",{htmlFor:"switch",children:"Toggle"})]})};i.__docgenInfo={description:"",methods:[],displayName:"ToggleSwitch",props:{onSwitch:{required:!0,tsType:{name:"signature",type:"function",raw:"(on: boolean) => void",signature:{arguments:[{type:{name:"boolean"},name:"on"}],return:{name:"void"}}},description:""}}};const w={title:"Components/002-29-08-2024-react-katas/ToggleSwitch",component:i},e={args:{onSwitch:t=>console.log(`switch is ${t}`)}};var a,r,c;e.parameters={...e.parameters,docs:{...(a=e.parameters)==null?void 0:a.docs,source:{originalSource:`{
+  args: {
+    onSwitch: on => console.log(\`switch is \${on}\`)
+  }
+}`,...(c=(r=e.parameters)==null?void 0:r.docs)==null?void 0:c.source}}};const f=["Default"];export{e as Default,f as __namedExportsOrder,w as default};

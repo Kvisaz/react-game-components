@@ -1,11 +1,11 @@
 import { useState } from "react";
 import styles from "./ToggleSwitch.module.css";
 
-interface ToggleSwitch {
+interface ToggleSwitchProps {
   onSwitch: (on: boolean) => void;
 }
 
-export const ToggleSwitch = ({ onSwitch }: ToggleSwitch) => {
+export const ToggleSwitch = ({ onSwitch }: ToggleSwitchProps) => {
   const [isOn, setIsOn] = useState(false);
   const handleOnChange = () => {
     const newState = !isOn;

@@ -10,6 +10,7 @@
     - 04 [Button](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-001-28-08-2024-react-katas-button--default-story)
     - 05 [Image](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-001-28-08-2024-react-katas-image--default-story)
 - [002 - 5 задач на создание React компонентов Claude](002_katas/readme.md)
+  - [.... Отзыв о выполнении](002_katas/report.md);
   - компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
     - 01 [ProgressBar](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-002-29-08-2024-react-katas-progressbar--default)
     - 02 [StarRating](https://kvisaz.github.io/react-game-components/storybook/?path=/story/components-002-29-08-2024-react-katas-starrating--default)

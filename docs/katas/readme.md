@@ -14,8 +14,8 @@
     - 01 [ProgressBar](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-002-29-08-2024-react-katas-progressbar--default)
     - 02 [StarRating](https://kvisaz.github.io/react-game-components/storybook/?path=/story/components-002-29-08-2024-react-katas-starrating--default)
     - 03 [ToggleSwitch](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-002-29-08-2024-react-katas-toggleswitch--default)
-    - 04 .....
-    - 05 .....
+    - 04 [CountdownTimer](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-002-29-08-2024-react-katas-countdowntimer--default)
+    - 05 [ProfileCard](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-002-29-08-2024-react-katas-profilecard--default)
 - [003 - 5 задач на создание React компонентов (Gemini)](003_katas/readme.md)
   - компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
     - 01 .....

@@ -5,4 +5,5 @@
 - [Online Demo](storybook/index.html);
 - [Github](https://github.com/Kvisaz/react-game-components)
 
+## Wiki
 - [Когда в React следует использовать memo](wiki/memo.md)

@@ -18,6 +18,7 @@
     - 04 [CountdownTimer](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-002-29-08-2024-react-katas-countdowntimer--default)
     - 05 [ProfileCard](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-002-29-08-2024-react-katas-profilecard--default)
 - [003 - 5 задач на создание React компонентов (Gemini)](003_katas/readme.md)
+  - [.... Отзыв о выполнении](003_katas/report.md);
   - компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
     - 01 [Avatar](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-003-31-08-2024-react-katas-avatar--default)
     - 02 [Divider](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-003-31-08-2024-react-katas-divider--default)

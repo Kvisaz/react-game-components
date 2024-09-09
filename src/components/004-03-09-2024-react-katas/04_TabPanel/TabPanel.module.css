@@ -1,0 +1,52 @@
+.tab-panel {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.tab-panel__head {
+  background-color: rgba(236, 236, 236, 0.797);
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.tab-panel__head > :not(:last-child) {
+  border-right: 1px solid rgba(90, 90, 90, 0.831);
+}
+
+.tab-panel__head__label {
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: rgb(181, 181, 181);
+  padding: 8px 16px;
+}
+
+.tab-panel__head__label:hover {
+  background-color: rgb(209, 209, 209);
+}
+
+.tab-panel__head__label:active {
+  background-color: rgb(150, 203, 159);
+}
+
+.label-selected {
+  background-color: rgb(97, 168, 109);
+}
+
+.tab-panel__head label button {
+  height: 0;
+  width: 0;
+  position: absolute;
+  visibility: hidden;
+}
+
+.tab-panel__content {
+  box-sizing: border-box;
+  padding: 16px 16px;
+  background-color: rgb(219, 219, 219);
+  min-height: 200px;
+}
+
+.tab-panel__content:empty {
+  padding: 0;
+  min-height: 0;
+}

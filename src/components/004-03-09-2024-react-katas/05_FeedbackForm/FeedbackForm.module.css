@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+.feedback-form {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 20px 30px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  max-width: max-content;
+}
+
+.input-box {
+  min-height: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.input-box label {
+  width: 150px;
+}
+
+.input-box input {
+  min-width: 300px;
+}
+
+.textarea-box {
+  margin: 10px 0 0 0;
+  min-height: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.textarea-box label {
+  width: 150px;
+}
+
+.textarea-box textarea {
+  min-width: 300px;
+  min-height: 90px;
+}
+
+.button-box {
+  margin: 20px 0 0 auto;
+}

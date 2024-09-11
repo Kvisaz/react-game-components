@@ -26,6 +26,7 @@
     - 04 [Counter](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-003-31-08-2024-react-katas-counter--default)
     - 05 [Link](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-003-31-08-2024-react-katas-link--default)
 - [004 - 5 задач на создание React компонентов (claude)](004_katas/readme.md)
+  - [.... Отзыв о выполнении](004_katas/report.md);
   - компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
     - 01 [CharacterCounter](https://kvisaz.github.io/react-game-components/storybook/?path=/story/components-004-03-09-2024-react-katas-charactercounter--default)
     - 02 [TrafficLight](https://kvisaz.github.io/react-game-components/storybook/?path=/story/components-004-03-09-2024-react-katas-trafficlight--default)

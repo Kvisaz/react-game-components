@@ -34,6 +34,7 @@
     - 04 [TabPanel](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-004-03-09-2024-react-katas-tabpanel--default)
     - 05 [FeedbackForm](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-004-03-09-2024-react-katas-feedbackform--default)
 - [005 - Предупреждение, Значок и другие](005_katas/readme.md)
+  - [.... Отзыв о выполнении](005_katas/report.md);
   - компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
     - 01 [Alert](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-005-10-09-2024-react-katas-alert--default)
     - 02 [Badge](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-005-10-09-2024-react-katas-badge--default)

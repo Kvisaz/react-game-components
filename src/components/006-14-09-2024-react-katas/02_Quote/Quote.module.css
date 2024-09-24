@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.quote {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+  background-color: rgb(224, 224, 224);
+  width: max-content;
+  padding: 12px 24px;
+  border: 1px solid rgb(178, 178, 178);
+  border-radius: 4px;
+}
+
+.author {
+  font-style: italic;
+  text-align: end;
+}

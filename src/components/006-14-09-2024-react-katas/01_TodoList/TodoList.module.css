@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 40em;
+  height: 30em;
+  background-color: grey;
+  padding: 0.6em;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.6em;
+  border-radius: 1em;
+}
+
+.head {
+  background-color: rgb(200, 200, 200);
+  text-align: center;
+  border-radius: 0.8em;
+}
+
+.todoList {
+  list-style-type: none;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.6em;
+  background-color: rgb(141, 141, 141);
+  padding: 0.4em;
+  height: 100%;
+  border-radius: 0.7em;
+  overflow-y: scroll;
+}
+
+.todo {
+  background-color: rgb(206, 206, 206);
+  border-radius: 0.4em;
+  padding: 0.2em;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 0.8em;
+  align-items: center;
+}
+
+.todoText {
+  background-color: white;
+  display: inline-block;
+  padding: 0.2em 0.4em;
+  border-radius: 0.4em;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.todoLabel {
+  content: "";
+  display: inline-block;
+  flex-shrink: 0;
+  width: 2em;
+  height: 2em;
+  background-color: rgb(89, 89, 89);
+  border-radius: 0.2em;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoLabel::after {
+  display: block;
+  content: "";
+  background-color: white;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 0.2em;
+}
+
+.todoLabel:hover {
+  background-color: rgb(41, 41, 41);
+  box-shadow: 0 0 0.1em 0.08em rgb(255, 255, 255);
+}
+
+input.todoCheck {
+  appearance: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+input.todoCheck:focus + .todoText + .todoLabel {
+  background-color: rgb(78, 155, 78);
+  border: 0.18em solid black;
+}
+
+input.todoCheck:checked + .todoText + .todoLabel {
+  background-color: rgb(78, 155, 78);
+}
+
+input.todoCheck:checked + .todoText + .todoLabel:hover {
+  background-color: rgb(196, 89, 96);
+  box-shadow: 0 0 0.1em 0.08em rgb(255, 100, 100);
+}
+
+input.todoCheck:checked + .todoText + .todoLabel::after {
+  background-color: rgb(78, 155, 78);
+  content: "✔";
+  text-align: center;
+  color: white;
+  font-size: 1.1em;
+}
+
+input.todoCheck:checked + .todoText {
+  text-decoration: line-through;
+}
+
+.todoButton {
+  border: none;
+  border-radius: 0.4em;
+  padding: 0.2em 0.4em;
+  background-color: rgb(128, 32, 32);
+  color: white;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.form {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 0.8em;
+}
+
+.formTextarea {
+  width: 100%;
+  height: 4em;
+  border-radius: 0.4em;
+  resize: none;
+  padding: 0.4em;
+  font-size: 2em;
+}
+
+.formButton {
+  font-size: 1.6em;
+  border: none;
+  border-radius: 0.4em;
+  padding: 0.4em 0.8em;
+  cursor: pointer;
+  background-color: rgb(81, 159, 81);
+  color: white;
+}

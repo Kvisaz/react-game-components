@@ -42,6 +42,7 @@
     - 04 [UnderlineText](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-005-10-09-2024-react-katas-underlinetext--default)
     - 05 [OnlineStatus](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-005-10-09-2024-react-katas-onlinestatus--default)
 - [006 - TodoList и мелочь](006_katas/readme.md)
+-  - [.... Отзыв о выполнении](006_katas/report.md);
   - компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
     - 01 [TodoList](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-006-14-09-2024-react-katas-todolist--default)
     - 02 [Quote](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-006-14-09-2024-react-katas-quote--default)

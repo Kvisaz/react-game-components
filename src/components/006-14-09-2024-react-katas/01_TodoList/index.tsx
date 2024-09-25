@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./TodoList.module.css";
 
 interface Todo {
@@ -8,28 +8,29 @@ interface Todo {
 }
 
 interface TodoListProps {
-  initialItems: Array<Todo>;
+  initialItems?: Array<string>;
 }
 
-// const DefaultTodoListProps: TodoListProps = {
-//   initialItems: [
-//     {
-//       text: "Помыть посуду",
-//       isChecked: false,
-//       key: "todo_1_Помытьпосу",
-//     },
-//     {
-//       text: "Убраться в спальне",
-//       isChecked: true,
-//       key: "todo_2_Убратьсявс",
-//     },
-//     { text: "Проверить почту", isChecked: false, key: "todo_3_Проверитьп" },
-//   ],
-// };
+const createTodo = (text: string, index: number): Todo => ({
+  text,
+  isChecked: false,
+  key: "todo_" + (index + 1) + "_" + text.slice(0, 10).replace(/ /g, ""),
+});
 
 export const TodoList = ({ initialItems }: TodoListProps) => {
-  const [todos, setTodos] = useState<Array<Todo>>(initialItems);
+  const [todos, setTodos] = useState<Array<Todo>>(() => {
+    const saved = localStorage.getItem("todo_list");
+    return saved !== null
+      ? JSON.parse(saved)
+      : initialItems !== undefined
+        ? initialItems.map((text, index) => createTodo(text, index))
+        : [];
+  });
   const [textareaValue, setTextareaValue] = useState("");
+
+  useEffect(() => {
+    localStorage.setItem("todo_list", JSON.stringify(todos));
+  }, [todos]);
 
   const handleCheckboxChange = (key: string, isChecked: boolean) => {
     setTodos(
@@ -52,15 +53,7 @@ export const TodoList = ({ initialItems }: TodoListProps) => {
     const text = textareaValue.trim();
     if (text !== "") {
       const newTodos = [...todos];
-      newTodos.push({
-        text,
-        isChecked: false,
-        key:
-          "todo_" +
-          (newTodos.length + 1) +
-          "_" +
-          text.slice(0, 10).replace(/ /g, ""),
-      });
+      newTodos.push(createTodo(text, newTodos.length));
       setTodos(newTodos);
       console.log("added todo: ", todos[todos.length - 1]);
       setTextareaValue("");

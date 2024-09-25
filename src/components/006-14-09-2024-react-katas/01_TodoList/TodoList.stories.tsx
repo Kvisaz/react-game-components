@@ -13,18 +13,10 @@ type Story = StoryObj<typeof TodoList>;
 
 export const Default: Story = {
   args: {
-    initialItems: [
-      {
-        text: "Помыть посуду",
-        isChecked: false,
-        key: "todo_1_Помытьпосу",
-      },
-      {
-        text: "Убраться в спальне",
-        isChecked: true,
-        key: "todo_2_Убратьсявс",
-      },
-      { text: "Проверить почту", isChecked: false, key: "todo_3_Проверитьп" },
-    ],
+    initialItems: ["Помыть посуду", "Убраться в спальне", "Проверить почту"],
   },
+};
+
+export const EmptyArgs: Story = {
+  args: {},
 };

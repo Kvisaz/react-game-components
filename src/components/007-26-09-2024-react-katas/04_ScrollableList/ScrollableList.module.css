@@ -1,0 +1,19 @@
+.list {
+  display: block;
+  height: 30em;
+  width: 20em;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 6px 2px #ccc;
+  padding: 5px 10px;
+  list-style-type: none;
+}
+
+.list > :not(:last-child) {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.item {
+  padding: 8px 0;
+}

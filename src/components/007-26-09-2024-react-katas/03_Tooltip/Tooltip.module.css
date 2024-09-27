@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  --tip-bg-color: #c7c79f;
+  position: relative;
+  cursor: pointer;
+  width: max-content;
+  height: max-content;
+}
+
+.tip {
+  visibility: hidden;
+  box-sizing: border-box;
+  position: absolute;
+
+  color: black;
+  width: max-content;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top {
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  flex-flow: column nowrap;
+}
+
+.top::after {
+  margin-top: -0.5em;
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  border: 0.5em solid transparent;
+  border-top: 1em solid var(--tip-bg-color);
+  border-bottom: 0;
+}
+
+.right {
+  top: 50%;
+  left: 100%;
+  transform: translate(0, -50%);
+  flex-flow: row nowrap;
+}
+
+.right::before {
+  margin-right: -0.5em;
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  border: 0.5em solid transparent;
+  border-right: 1em solid var(--tip-bg-color);
+  border-left: 0;
+}
+
+.bottom {
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  flex-flow: column nowrap;
+}
+
+.bottom::before {
+  margin-bottom: -0.5em;
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  border: 0.5em solid transparent;
+  border-bottom: 1em solid var(--tip-bg-color);
+  border-top: 0;
+}
+
+.left {
+  top: 50%;
+  left: 0%;
+  transform: translate(-100%, -50%);
+  flex-flow: row nowrap;
+}
+
+.left::after {
+  margin-left: -0.5em;
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  border: 0.5em solid transparent;
+  border-left: 1em solid var(--tip-bg-color);
+  border-right: 0;
+}
+
+.text {
+  background: var(--tip-bg-color);
+  display: table;
+  padding: 0.4em 0.8em;
+}
+
+.box:hover .tip {
+  visibility: visible;
+}

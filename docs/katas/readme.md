@@ -50,11 +50,11 @@
   - 04 [TagList](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-006-14-09-2024-react-katas-taglist--default)
 - [007 - Блок с тенью, Загружаемый контент и другие](007_katas/readme.md)
   - компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
-    - 01 [ShadowBox]()
-    - 02 [LoadingContent]()
-    - 03 [Tooltip]()
-    - 04 [ScrollableList]()
-    - 05 [IconButton]()
+    - 01 [ShadowBox](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-007-26-09-2024-react-katas-shadowbox--quote-as-child)
+    - 02 [LoadingContent](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-007-26-09-2024-react-katas-loadingcontent--default)
+    - 03 [Tooltip](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-007-26-09-2024-react-katas-tooltip--default)
+    - 04 [ScrollableList](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-007-26-09-2024-react-katas-scrollablelist--default)
+    - 05 [IconButton](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-007-26-09-2024-react-katas-iconbuttons--icon-search)
 - [008 - Разделитель с текстом, Прогресс круговой, Вкладки](008_katas/readme.md)
   - компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
     - 01 .....

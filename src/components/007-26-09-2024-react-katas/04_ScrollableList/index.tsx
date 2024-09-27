@@ -4,10 +4,6 @@ interface ScrollableListProps {
 }
 export const ScrollableList = ({ items }: ScrollableListProps) => {
   return (
-    // <div className={styles.box}>
-
-    // </div>
-
     <ul className={styles.list}>
       {items.map((text, index) => (
         <li

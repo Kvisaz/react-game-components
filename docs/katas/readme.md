@@ -42,19 +42,19 @@
     - 04 [UnderlineText](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-005-10-09-2024-react-katas-underlinetext--default)
     - 05 [OnlineStatus](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-005-10-09-2024-react-katas-onlinestatus--default)
 - [006 - TodoList и мелочь](006_katas/readme.md)
--  - [.... Отзыв о выполнении](006_katas/report.md);
-  - компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
-    - 01 [TodoList](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-006-14-09-2024-react-katas-todolist--default)
-    - 02 [Quote](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-006-14-09-2024-react-katas-quote--default)
-    - 03 [ProductCard](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-006-14-09-2024-react-katas-productcard--default)
-    - 04 [TagList](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-006-14-09-2024-react-katas-taglist--default)
+- - [.... Отзыв о выполнении](006_katas/report.md);
+- компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
+  - 01 [TodoList](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-006-14-09-2024-react-katas-todolist--default)
+  - 02 [Quote](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-006-14-09-2024-react-katas-quote--default)
+  - 03 [ProductCard](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-006-14-09-2024-react-katas-productcard--default)
+  - 04 [TagList](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-006-14-09-2024-react-katas-taglist--default)
 - [007 - Блок с тенью, Загружаемый контент и другие](007_katas/readme.md)
   - компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
-    - 01 .....
-    - 02 .....
-    - 03 .....
-    - 04 .....
-    - 05 .....
+    - 01 [ShadowBox]()
+    - 02 [LoadingContent]()
+    - 03 [Tooltip]()
+    - 04 [ScrollableList]()
+    - 05 [IconButton]()
 - [008 - Разделитель с текстом, Прогресс круговой, Вкладки](008_katas/readme.md)
   - компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
     - 01 .....

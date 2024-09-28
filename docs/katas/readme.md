@@ -49,6 +49,7 @@
   - 03 [ProductCard](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-006-14-09-2024-react-katas-productcard--default)
   - 04 [TagList](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-006-14-09-2024-react-katas-taglist--default)
 - [007 - Блок с тенью, Загружаемый контент и другие](007_katas/readme.md)
+  - [.... Отзыв о выполнении](007_katas/report.md); 
   - компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
     - 01 [ShadowBox](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-007-26-09-2024-react-katas-shadowbox--quote-as-child)
     - 02 [LoadingContent](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-007-26-09-2024-react-katas-loadingcontent--default)

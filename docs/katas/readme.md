@@ -49,7 +49,7 @@
   - 03 [ProductCard](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-006-14-09-2024-react-katas-productcard--default)
   - 04 [TagList](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-006-14-09-2024-react-katas-taglist--default)
 - [007 - Блок с тенью, Загружаемый контент и другие](007_katas/readme.md)
-  - [.... Отзыв о выполнении](007_katas/report.md); 
+  - [.... Отзыв о выполнении](007_katas/report.md);
   - компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
     - 01 [ShadowBox](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-007-26-09-2024-react-katas-shadowbox--quote-as-child)
     - 02 [LoadingContent](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-007-26-09-2024-react-katas-loadingcontent--default)
@@ -58,11 +58,11 @@
     - 05 [IconButton](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-007-26-09-2024-react-katas-iconbuttons--icon-search)
 - [008 - Разделитель с текстом, Прогресс круговой, Вкладки](008_katas/readme.md)
   - компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
-    - 01 .....
-    - 02 .....
-    - 03 .....
-    - 04 .....
-    - 05 .....
+    - 01 [DividerWithText](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-008-28-09-2024-react-katas-dividerwithtext--default)
+    - 02 [CircularProgress](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-008-28-09-2024-react-katas-circularprogress--default)
+    - 03 [Tabs](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-008-28-09-2024-react-katas-tabs--default)
+    - 04 [Dropdown](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-008-28-09-2024-react-katas-dropdown--default)
+    - 05 [TreasureMap](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-008-28-09-2024-react-katas-treasuremap--default&args=width:600)
 - [009 - Игровая тема 1](009_katas/readme.md)
   - компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
     - 01 .....

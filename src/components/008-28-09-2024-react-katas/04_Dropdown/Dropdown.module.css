@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  width: max-content;
+}
+
+.button {
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  background-color: rgb(67, 140, 235);
+  color: rgb(255, 255, 255);
+  padding: 0.6em 1em;
+  font-size: 1.2em;
+  border-radius: 0.2em;
+}
+
+.button:hover {
+  background-color: rgb(93, 159, 245);
+}
+
+.dropdown {
+  position: absolute;
+  width: 100%;
+  margin: 0.4em 0 0 0;
+  list-style: none;
+  border: 0.1em solid rgb(155, 155, 155);
+  box-shadow: 0 0 0.4em rgb(205, 205, 205);
+  border-radius: 0.2em;
+}
+
+.item {
+  padding: 0.6em 1em;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}

@@ -1,0 +1,48 @@
+.progress {
+  --progress-value: 0%;
+  /* --conic-gradient-progress-color: rgb(77, 150, 52);
+  --conic-gradient-empty-color: rgb(110, 149, 254);
+  --background-color: rgb(59, 111, 255); */
+  --conic-gradient-progress-color: rgb(77, 150, 52);
+  --conic-gradient-empty-color: white;
+  --background-color: white;
+
+  position: relative;
+
+  width: 5em;
+  height: 5em;
+
+  box-sizing: border-box;
+  border: 0.05em solid;
+  border-radius: 50%;
+
+  background: conic-gradient(
+      var(--conic-gradient-progress-color) var(--progress-value, 0),
+      var(--conic-gradient-empty-color) 0
+    ),
+    var(--background-color);
+
+  transition: 1s;
+}
+
+.progress::after {
+  box-sizing: border-box;
+
+  content: ""; /* to visually display the element with display: block; width: ...; height: ...; */
+
+  display: block;
+
+  width: 3.8em;
+  height: 3.8em;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  box-sizing: border-box;
+  border: 0.05em solid;
+  border-radius: 50%;
+
+  background-color: var(--background-color);
+}

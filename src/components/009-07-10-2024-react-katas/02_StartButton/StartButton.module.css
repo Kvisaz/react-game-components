@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Tiny5 Regular";
+  src: url("./assets/fonts/Tiny5-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.start_button {
+  --shadow-color: black;
+
+  box-sizing: border-box;
+  margin: 0;
+  border: none;
+  background: none;
+  width: max-content;
+  height: max-content;
+
+  font-family: "Tiny5 Regular", sans-serif;
+  font-size: 2em;
+  /* text-transform: uppercase; */
+
+  padding: 0.2em 0.4em;
+
+  /*
+  Pseudo-border by box-shadow rule. Clockwise. Top, right, bottom, left.
+  */
+  box-shadow:
+    0 -0.15em var(--shadow-color),
+    0.15em 0 var(--shadow-color),
+    0 0.15em 0 var(--shadow-color),
+    -0.15em 0 var(--shadow-color);
+
+  background-color: gold;
+
+  cursor: pointer;
+}
+
+.start_button:hover {
+  background-color: green;
+  --shadow-color: gold;
+  color: gold;
+}

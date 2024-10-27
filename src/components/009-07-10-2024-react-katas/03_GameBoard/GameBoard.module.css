@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container,
+.board {
+  width: max-content;
+  height: max-content;
+}
+
+.container {
+  background-color: gray;
+  padding: 10px;
+}
+
+.board,
+.row,
+.cell {
+  display: flex;
+}
+
+.board,
+.row {
+  background-color: black;
+  gap: 1px;
+}
+
+.board {
+  flex-flow: column nowrap;
+}
+
+.row {
+  flex-flow: row nowrap;
+}
+
+.cell {
+  box-sizing: content-box;
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: gold;
+}

@@ -1,0 +1,29 @@
+.dialog_box,
+.text,
+.button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dialog_box {
+  background: white;
+  width: 30em;
+  height: 24em;
+  padding: 3em 3em 2em 3em;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+  border: 0.1em solid black;
+}
+
+.text {
+  font-size: 1.1em;
+}
+
+.button {
+  padding: 1em 2em;
+  font-size: 1.15em;
+  cursor: pointer;
+}

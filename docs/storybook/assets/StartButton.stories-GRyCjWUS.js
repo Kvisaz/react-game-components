@@ -1,0 +1,3 @@
+import{j as e}from"./jsx-runtime-CkxqCPlQ.js";import"./index-DJO9vBfz.js";const n="_start_button_9xwm3_15",c={start_button:n},a=()=>e.jsx("button",{className:c.start_button,children:"Старт!"});a.__docgenInfo={description:"",methods:[],displayName:"StartButton"};const p={title:"Components/009-07-10-2024-react-katas/StartButton",component:a},t={args:{}};var s,o,r;t.parameters={...t.parameters,docs:{...(s=t.parameters)==null?void 0:s.docs,source:{originalSource:`{
+  args: {}
+}`,...(r=(o=t.parameters)==null?void 0:o.docs)==null?void 0:r.source}}};const d=["Default"];export{t as Default,d as __namedExportsOrder,p as default};

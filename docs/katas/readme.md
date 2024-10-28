@@ -65,6 +65,7 @@
     - 05 [TreasureMap](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-008-28-09-2024-react-katas-treasuremap--default&args=width:600)
 - [009 - Игровая тема 1](009_katas/readme.md)
   - компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
+  - [.... Отзыв о выполнении](009_katas/report.md);
     - 01 [Coin](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-009-07-10-2024-react-katas-coin--default)
     - 02 [StartButton](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-009-07-10-2024-react-katas-startbutton--default)
     - 03 [GameBoard](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-009-07-10-2024-react-katas-gameboard--default)

@@ -28,31 +28,31 @@
   background-color: rgb(171, 197, 58);
 }
 
-.buttonUp,
-.buttonDown {
+.up,
+.down {
   padding: 0.2em 0.6em;
 }
 
-.buttonLeft,
-.buttonRight {
+.left,
+.right {
   padding: 0.2em 0.4em;
 }
 
-.buttonUp {
+.up {
   grid-column-start: 2;
 }
 
-.buttonRight {
+.right {
   grid-column-start: 3;
   grid-row-start: 2;
 }
 
-.buttonDown {
+.down {
   grid-column-start: 2;
   grid-row-start: 2;
 }
 
-.buttonLeft {
+.left {
   grid-column-start: 1;
   grid-row-start: 2;
 }

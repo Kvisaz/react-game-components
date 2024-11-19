@@ -1,0 +1,27 @@
+.ui {
+  box-sizing: border-box;
+  height: 6rem;
+  padding: 0 1rem;
+  background-color: rgb(173, 148, 255);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ui * {
+  flex-shrink: 1;
+  flex-grow: 0;
+}
+
+.status {
+  font-size: 1.1em;
+}
+
+.btnRestart {
+  width: max-content;
+  height: max-content;
+  padding: 0.3rem;
+  font-size: 0.9em;
+  cursor: pointer;
+}

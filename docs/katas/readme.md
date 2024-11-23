@@ -74,4 +74,5 @@
 - [010 - Tic Tac Toe](010_katas/readme.md)
   - компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
   - по сути это мини-приложение, которое содержит в себе другие компоненты, тестировать нужно сразу все приложение
+    - [.... Отзыв о выполнении](010_katas/report.md);
     - [Tic Tac Toe](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-010-28-10-2024-react-katas-tictactoe--default)

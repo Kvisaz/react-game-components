@@ -32,7 +32,7 @@ const calculateGameEnd = (
   return null;
 };
 
-const gameReducer = (state: GameState, action: GameAction): GameState => {
+const gameReducer = (state = initialState, action: GameAction): GameState => {
   switch (action.type) {
     case "MAKE_MOVE": {
       if (state.gameEnd || state.squares[action.index]) {

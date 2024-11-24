@@ -1,0 +1,17 @@
+.field {
+  box-sizing: border-box;
+  background-color: rgb(173, 148, 255);
+  padding: 0.6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1rem 1rem;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+}
+
+.field * {
+  place-self: center;
+}

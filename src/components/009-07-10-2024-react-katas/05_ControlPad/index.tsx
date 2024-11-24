@@ -8,9 +8,34 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./ControlPad.module.css";
 import { useEffect, useState } from "react";
 
+type Direction = "up" | "right" | "down" | "left";
+type ClickHandler = (direction: Direction) => void;
+
 interface ControlPadProps {
-  onClick: (direction: "up" | "right" | "down" | "left") => void;
+  onClick: ClickHandler;
 }
+
+interface ControlButtonProps {
+  dir: Direction;
+  onClick: ClickHandler;
+  isActive: boolean;
+}
+
+const iconDirections = {
+  up: faArrowUp,
+  right: faArrowRight,
+  down: faArrowDown,
+  left: faArrowLeft,
+};
+
+const ControlButton = ({ dir, onClick, isActive }: ControlButtonProps) => (
+  <button
+    onClick={() => onClick(dir)}
+    className={`${styles.button} ${styles[dir]}${isActive ? " " + styles.active : ""}`}
+  >
+    <FontAwesomeIcon icon={iconDirections[dir]} size={"2x"} />
+  </button>
+);
 
 export const ControlPad = ({ onClick }: ControlPadProps) => {
   const [upIsActive, setUpIsActive] = useState<boolean>(false);
@@ -50,50 +75,10 @@ export const ControlPad = ({ onClick }: ControlPadProps) => {
 
   return (
     <div className={styles.grid_container}>
-      <button
-        onClick={() => onClick("up")}
-        className={
-          styles.button +
-          " " +
-          styles.buttonUp +
-          (upIsActive ? " " + styles.active : "")
-        }
-      >
-        <FontAwesomeIcon icon={faArrowUp} size={"2x"} />
-      </button>
-      <button
-        onClick={() => onClick("right")}
-        className={
-          styles.button +
-          " " +
-          styles.buttonRight +
-          (rightIsActive ? " " + styles.active : "")
-        }
-      >
-        <FontAwesomeIcon icon={faArrowRight} size={"2x"} />
-      </button>
-      <button
-        onClick={() => onClick("down")}
-        className={
-          styles.button +
-          " " +
-          styles.buttonDown +
-          (downIsActive ? " " + styles.active : "")
-        }
-      >
-        <FontAwesomeIcon icon={faArrowDown} size={"2x"} />
-      </button>
-      <button
-        onClick={() => onClick("left")}
-        className={
-          styles.button +
-          " " +
-          styles.buttonLeft +
-          (leftIsActive ? " " + styles.active : "")
-        }
-      >
-        <FontAwesomeIcon icon={faArrowLeft} size={"2x"} />
-      </button>
+      <ControlButton dir={"up"} onClick={onClick} isActive={upIsActive} />
+      <ControlButton dir={"right"} onClick={onClick} isActive={rightIsActive} />
+      <ControlButton dir={"down"} onClick={onClick} isActive={downIsActive} />
+      <ControlButton dir={"left"} onClick={onClick} isActive={leftIsActive} />
     </div>
   );
 };

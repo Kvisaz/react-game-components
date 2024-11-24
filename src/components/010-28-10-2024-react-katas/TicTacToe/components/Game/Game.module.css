@@ -1,0 +1,12 @@
+.game {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column nowrap;
+  border-radius: 1.2rem;
+  border: 0.4rem solid rgb(128, 89, 255);
+  overflow: hidden;
+}
+
+.divider {
+  border: 0.2rem solid rgb(128, 89, 255);
+}

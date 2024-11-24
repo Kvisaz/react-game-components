@@ -1,14 +1,10 @@
-import { StoryObj, Meta } from "@storybook/react";
+import { Meta } from "@storybook/react";
 import { ArticleTest } from "./index";
 
 export default {
   title: "Components/ArticleTest",
   component: ArticleTest,
 } as Meta;
-
-const Template: StoryObj<typeof ArticleTest> = (args) => (
-  <ArticleTest {...args} />
-);
 
 export const Primary: Meta = {
   args: {

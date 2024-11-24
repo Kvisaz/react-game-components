@@ -1,0 +1,13 @@
+.square {
+  box-sizing: border-box;
+  background-color: rgb(221, 210, 255);
+  width: 6rem;
+  height: 6rem;
+  cursor: pointer;
+  border-radius: 1.2rem;
+  border: 0.3rem solid rgb(128, 89, 255);
+  font-size: 4em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

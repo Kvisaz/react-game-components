@@ -76,3 +76,9 @@
   - по сути это мини-приложение, которое содержит в себе другие компоненты, тестировать нужно сразу все приложение
     - [.... Отзыв о выполнении](010_katas/report.md);
     - [Tic Tac Toe](https://kvisaz.github.io/react-game-components/storybook/index.html?path=/story/components-010-28-10-2024-react-katas-tictactoe--default)
+
+- [011 - Pomodoro с логами](011_katas/readme.md)
+  - компоненты в сторибуке, ссылка на сторибук на Гитхабе и имя компонента
+  - помодоро и логи с сохранением между сеансаси
+    - [.... Отзыв о выполнении](011_katas/report.md);
+    - [Pomodoro - ссылка на сторибук](поставить рабочу)

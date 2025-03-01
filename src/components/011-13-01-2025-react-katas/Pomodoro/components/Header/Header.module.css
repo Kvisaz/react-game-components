@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  display: flex;
+}
+
+/* buttons base*/
+
+.container > * {
+  padding: 6px 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: solid;
+  box-sizing: content-box;
+  width: 50%;
+  cursor: pointer;
+}
+
+.left {
+  border-radius: 1rem 0 0 1rem;
+  border-right-style: none;
+}
+
+.right {
+  border-radius: 0 1rem 1rem 0;
+}
+
+/* button active */
+
+.active {
+  background-color: red;
+}
+
+.container > :not(.active):hover {
+  background-color: green;
+}
+
+/* buttons hover */
+
+.left:hover {
+  border-right-style: solid;
+}
+
+.left:hover + .right {
+  border-left-style: none;
+}

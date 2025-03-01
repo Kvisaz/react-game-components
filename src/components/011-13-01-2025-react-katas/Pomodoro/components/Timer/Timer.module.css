@@ -1,0 +1,52 @@
+.container {
+  background-color: blue;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.timings_box {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  background-color: blue;
+  padding: 8px 0;
+}
+
+.button_set {
+  padding: 0.4rem;
+  font-size: 1rem;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.timings_box > :not(:first-child) {
+  margin: 0 0 0 10px;
+}
+
+.time {
+  font-size: 6rem;
+  background-color: gray;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.timer_buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0;
+}
+
+.timer_buttons > * {
+  cursor: pointer;
+  padding: 0.2rem 0;
+  font-size: 1.2rem;
+  width: 6rem;
+}
+
+.timer_buttons > :not(:first-child) {
+  margin: 0 0 0 12px;
+}

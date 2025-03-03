@@ -23,8 +23,8 @@ export const formatDateToHMNumber = (date: Date) => {
 
 export const formatHMNumberToHMString = (HMNumber: number) => {
   const minNum = HMNumber % 100;
-  const hoursNum = (HMNumber - minNum) / 100;
-  const minStr = minNum === 0 ? "00" : String(minNum).padStart(2, "0");
+  const hoursNum = (HMNumber - minNum) / 100 + (minNum === 60 ? 1 : 0);
+  const minStr = minNum === 0 || minNum === 60 ? "00" : String(minNum).padStart(2, "0");
   const hoursStr = hoursNum === 0 ? "00" : String(hoursNum).padStart(2, "0");
   return hoursStr + ":" + minStr;
 };

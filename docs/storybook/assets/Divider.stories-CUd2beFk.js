@@ -1,0 +1,8 @@
+import{j as p}from"./jsx-runtime-DWbWqHZ-.js";import{R as h,r as n}from"./index-l2PZgWEW.js";const d=h.memo(({color:t="#6a6868",height:e=5,widthPercent:l=100,centered:o=!0})=>{const u=n.useMemo(()=>`${Math.floor(e*.5)}px`,[e]),a=n.useMemo(()=>o?"auto":0,[o]),m={backgroundColor:t,height:`${e}px`,width:`${l}%`,borderWidth:0,borderRadius:u,marginLeft:a,marginRight:a};return p.jsx("hr",{style:m})},(t,e)=>t.color===e.color&&t.height===e.height&&t.widthPercent===e.widthPercent&&t.centered===e.centered);d.__docgenInfo={description:"",methods:[],displayName:"Divider",props:{color:{required:!1,tsType:{name:"string"},description:"",defaultValue:{value:'"#6a6868"',computed:!1}},height:{required:!1,tsType:{name:"number"},description:"",defaultValue:{value:"5",computed:!1}},widthPercent:{required:!1,tsType:{name:"number"},description:"",defaultValue:{value:"100",computed:!1}},centered:{required:!1,tsType:{name:"boolean"},description:"",defaultValue:{value:"true",computed:!1}}}};const y={title:"Components/003-31-08-2024-react-katas/Divider",component:d,argTypes:{color:{control:{type:"color"}},height:{control:{type:"range",min:0,max:600,step:1}},widthPercent:{control:{type:"range",min:0,max:100,step:1}},centered:{control:{type:"boolean"}}}},r={args:{color:"#6a6868",height:5,widthPercent:100,centered:!0}};var s,c,i;r.parameters={...r.parameters,docs:{...(s=r.parameters)==null?void 0:s.docs,source:{originalSource:`{
+  args: {
+    color: "#6a6868",
+    height: 5,
+    widthPercent: 100,
+    centered: true
+  }
+}`,...(i=(c=r.parameters)==null?void 0:c.docs)==null?void 0:i.source}}};const b=["Default"];export{r as Default,b as __namedExportsOrder,y as default};

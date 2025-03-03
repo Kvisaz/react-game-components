@@ -1,0 +1,5 @@
+import{j as t}from"./jsx-runtime-DWbWqHZ-.js";import{r as _}from"./index-l2PZgWEW.js";const u="_container_n9zzl_1",w="_button_n9zzl_11",h="_dropdown_n9zzl_45",x="_item_n9zzl_65",n={container:u,button:w,dropdown:h,item:x},c=({options:i})=>{const[d,l]=_.useState(!1),m=()=>{l(o=>!o)};return t.jsxs("div",{className:n.container,children:[t.jsx("button",{onClick:m,className:n.button,children:"Dropdown"}),t.jsx("ul",{style:{visibility:d?"visible":"hidden"},className:n.dropdown,children:i.map((o,p)=>t.jsx("li",{className:n.item,children:o},o+"-"+p))})]})};c.__docgenInfo={description:"",methods:[],displayName:"Dropdown"};const f={title:"Components/008-28-09-2024-react-katas/Dropdown",component:c},s={args:{options:["Опция 1","Опция 2","Опция 3","Опция 4","Опция 5"]}};var e,r,a;s.parameters={...s.parameters,docs:{...(e=s.parameters)==null?void 0:e.docs,source:{originalSource:`{
+  args: {
+    options: ["Опция 1", "Опция 2", "Опция 3", "Опция 4", "Опция 5"]
+  }
+}`,...(a=(r=s.parameters)==null?void 0:r.docs)==null?void 0:a.source}}};const j=["Default"];export{s as Default,j as __namedExportsOrder,f as default};

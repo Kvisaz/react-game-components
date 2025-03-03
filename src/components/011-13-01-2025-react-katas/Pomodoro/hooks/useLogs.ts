@@ -8,7 +8,9 @@ export const useLogs = (key: string, initialValue: Array<ILog>) => {
       const savedData = localStorage.getItem(key);
       if (savedData) {
         const parsedData: Array<ILog> = JSON.parse(savedData);
-        return parsedData;
+        if (parsedData.length > 0) {
+          return parsedData;
+        }
       }
     } catch (error) {
       console.error(`Error load from localStorage key "${key}":`, error);

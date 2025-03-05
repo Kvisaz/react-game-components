@@ -1,4 +1,4 @@
-import styles from "./Timer.module.css";
+import styles from "./Deprecated_Timer.module.css";
 import { formatTime } from "../../utils/pomodoroUtils";
 import { ITimerState } from "../../interfaces/interfaces";
 
@@ -9,7 +9,7 @@ interface TimerProps {
   resetTimer: () => void;
 }
 
-export const Timer = ({ timerState, setTimer, toggleTimer, resetTimer }: TimerProps) => {
+export const Deprecated_Timer = ({ timerState, setTimer, toggleTimer, resetTimer }: TimerProps) => {
   return (
     <div className={styles.container}>
       <div className={styles.timings_box}>

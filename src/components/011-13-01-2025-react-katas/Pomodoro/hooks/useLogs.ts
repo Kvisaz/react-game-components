@@ -20,12 +20,19 @@ export const useLogs = (key: string, initialValue: Array<ILog>) => {
 
   useEffect(() => {
     try {
-      const valueToStore = JSON.stringify(logsState);
-      localStorage.setItem(key, valueToStore);
+      if (logsState.length > 0) {
+        const valueToStore = JSON.stringify(logsState);
+        localStorage.setItem(key, valueToStore);
+      }
     } catch (error) {
       console.error(`Error saving to localStorage key "${key}":`, error);
     }
   }, [key, logsState]);
+
+  const clearLogs = () => {
+    localStorage.removeItem(key);
+    setLogsState([]);
+  };
 
   const setSession = (isStart: boolean, time: number) => {
     setLogsState((previusState) => {
@@ -80,5 +87,5 @@ export const useLogs = (key: string, initialValue: Array<ILog>) => {
     });
   };
 
-  return { logsState, setSession };
+  return { logsState, setSession, clearLogs };
 };
